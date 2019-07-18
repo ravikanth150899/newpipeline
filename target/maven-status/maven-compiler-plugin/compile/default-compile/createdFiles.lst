@@ -1,1 +1,2 @@
-com/mkyong/controller/WelcomeController.class
+com\mkyong\controller\WelcomeController.class
+org\o7planning\tutorial\springmvcsecurity\controller\MainController.class

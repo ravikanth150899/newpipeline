@@ -111,10 +111,12 @@
 <!--				</plugin> -->
 				  <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
+        <artifactId>maven-compiler-plugin</artifactId>
         <version>2.3</version>
         <configuration>
-          <archiveClasses>true</archiveClasses>
+		    <source>1.6</source>
+            <target>1.6</target>
+	         <archiveClasses>true</archiveClasses>
           <webResources>
             <!-- in order to interpolate version from pom into appengine-web.xml -->
             <resource>
@@ -130,6 +132,12 @@
         <artifactId>appengine-maven-plugin</artifactId>
         <version>1.0.0</version>
       </plugin>
+	  <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.0</version>
+	 
+</plugin>
 			</plugins>   
 		</pluginManagement>
 

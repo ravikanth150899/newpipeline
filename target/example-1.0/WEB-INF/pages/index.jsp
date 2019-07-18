@@ -3,7 +3,7 @@
 
 <html>
 <head>
-<link href="${resources}/css/core.css" rel="stylesheet">
+<link href="[Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\tejaswini.t\JavaApplication-master\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]/css/core.css" rel="stylesheet">
 </head>
 <body>
 <h1>Ant + Spring MVC Web Project Example</h1>
