@@ -5,7 +5,7 @@
 
 	<groupId>com.in28minutes.maven</groupId>
 	<artifactId>example</artifactId>
-	<version>${v}</version>
+	<!--<version>${v}</version>-->
 
 	<packaging>war</packaging>
 
